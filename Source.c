@@ -123,7 +123,7 @@ BOOL OnExceptionDebugEvent(LPDEBUG_EVENT pde)
 
 			if ((str = wcsstr(&buffer, L"iex")) == NULL) 
 			{
-				MessageBox(NULL, TEXT("Normal"), TEXT("알림"), MB_OK | MB_TOPMOST);
+				MessageBox(NULL, TEXT("Normal"), TEXT("Alert"), MB_OK | MB_TOPMOST);
 				return TRUE;
 			}
 			else
